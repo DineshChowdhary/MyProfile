@@ -37,14 +37,14 @@ nav ul {
 
 nav ul li a {
     margin: 30px;
-    font-family: myriad pro regular;
+    font-family: calibri;
     color: #505050;
     font-size: 15px;
     font-weight: 700;
 }
 
 .logo {
-    font-family: myriad pro regular;
+    font-family: calibri;
     color: #000000;
     font-size: 22px;
 }
@@ -138,5 +138,80 @@ nav ul li a {
 .about-info p:nth-child(3){
     color: #7e7d7d;
     font-size: 17px;
+    font-family: calibri;
+}
+
+.skills-section {
+    color: #FFFFFF;
+    height: 400px;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.skills-list {
+    width: 100%;
+    margin: 30px;
+    display: inline-block;
+}
+
+.skills-list p:nth-child(1){
+    color: #403e3e;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.skills-list p:nth-child(2){
+    color: #3e3d3d;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.skills-list p:nth-child(3){
+    color: #3e3d3d;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.progress{
+    margin-right: 30px;
+    background-color: rgb(134, 211, 134);
+    text-align: center;
+    width: 82%;
+    border-radius: 10px;
+    color: #3e3d3d;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+.progressMaster {
+    margin-right: 30px;
+    background-color: rgb(231, 222, 222);
+    width: 100%;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th {
+    display: none;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
     font-family: calibri;
 }
